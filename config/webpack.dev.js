@@ -9,9 +9,22 @@ module.exports = {
         //__dirname 当前文件所在文佳佳路径
         path: path.resolve(__dirname, "../dist"),
         //TODO: devserver 时生效，但未见打包后文件
-        publicPath: '/js/',
+        publicPath: '/',
     },
     devServer: {
         contentBase: "dist"
+    },
+    module: {
+        rules: [{
+            test: /\.css$/,
+            use: [{
+                    loader: "style-loader"
+                },
+                {
+                    loader: "css-loader"
+                },
+            ]
+        }]
     }
+
 }
