@@ -3,16 +3,28 @@ body {
     background-color: #444;
 }
 
-h1 {
+.profile {
     /* 相对于视口的高度。视口被均分为100单位的vh */
     height: 100vh;
     /* 弹性盒模型 */
     display: flex;
-    color: white;
     /* 定义flex子项在flex容器的当前行的侧轴（纵轴）方向上的对齐方式。 */
     align-items: center;
     /*  用于设置或检索弹性盒子元素在主轴（横轴）方向上的对齐方式。 */
     justify-content: center;
+    /* 用于设置或检索弹性盒模型对象的子元素排列方式。column 主轴从上往下 */
+    flex-flow: column
+}
+
+img {
+    border-radius: 100%;
+    width: 300px;
+    box-shadow: 0 0 20px black
+}
+
+h1 {
+
+    color: white;
     /* 字体大小 em: 父元素的字体大小*/
     font-size: 5em;
     /* 字体系列 */

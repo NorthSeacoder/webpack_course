@@ -1,2 +1,3 @@
 require('./main.css')
-alert("hello world")
+require('./index.html')
+// alert("hello world")
