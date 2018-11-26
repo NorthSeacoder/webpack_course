@@ -10,3 +10,8 @@ up and running with Webpack Dev Server
 
 firrst loaders for css  
 better errors and loaders for html & images
+
+## day three
+
+Babel Basic  
+Babel Polyfills,Transforms & Presets
