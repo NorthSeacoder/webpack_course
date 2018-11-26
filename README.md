@@ -8,4 +8,5 @@ up and running with Webpack Dev Server
 
 ## day two
 
-firrst loaders for css
+firrst loaders for css  
+better errors and loaders for html & images
