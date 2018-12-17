@@ -15,3 +15,7 @@ better errors and loaders for html & images
 
 Babel Basic  
 Babel Polyfills,Transforms & Presets
+
+## day four
+
+DIY Webpack Dev Server with Express Middleware
