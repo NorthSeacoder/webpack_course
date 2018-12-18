@@ -19,3 +19,4 @@ Babel Polyfills,Transforms & Presets
 ## day four
 
 DIY Webpack Dev Server with Express Middleware
+Hot Reloading Both Client and Server with Nodemon
