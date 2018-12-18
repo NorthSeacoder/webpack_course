@@ -6,6 +6,7 @@ module.exports = {
         main: ["core-js/fn/promise", "./src/main.js"]
     },
     mode: "development",
+    devtool: "source-map",
     output: {
         filename: "[name].js",
         //__dirname 当前文件所在文佳佳路径
